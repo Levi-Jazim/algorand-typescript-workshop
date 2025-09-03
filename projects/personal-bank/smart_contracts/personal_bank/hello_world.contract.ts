@@ -1,4 +1,4 @@
-import { Contract, Box } from '@algorandfoundation/algorand-typescript'
+import { Contract, Box } from '@algorandfoundation/algokit-utils/types/app-contract';
 
 export class HelloWorld extends Contract {
   boxGithub = Box<string>({ key: 'github' });

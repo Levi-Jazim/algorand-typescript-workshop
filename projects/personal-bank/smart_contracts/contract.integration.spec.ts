@@ -5,7 +5,7 @@ import { TransactionSignerAccount } from '@algorandfoundation/algokit-utils/type
 import { AlgoAmount } from '@algorandfoundation/algokit-utils/types/amount'
 import { Account } from 'algosdk'
 import { beforeAll, beforeEach, describe, expect, test } from 'vitest'
-import { PersonalBankFactory } from '../artifacts/personal_bank/PersonalBankClient'
+import { PersonalBankFactory } from './artifacts/personal_bank/PersonalBankClient'
 
 describe('personal bank contract', () => {
   const localnet = algorandFixture()

@@ -1,6 +1,6 @@
 import { TestExecutionContext } from '@algorandfoundation/algorand-typescript-testing'
 import { describe, expect, it } from 'vitest'
-import { PersonalBank } from './contract.algo'
+import { PersonalBank } from './personal_bank/contract.algo'
 
 describe('PersonalBank contract', () => {
   const context = new TestExecutionContext()
